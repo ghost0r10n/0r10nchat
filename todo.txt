@@ -1,0 +1,32 @@
+SERVER:
+
+
+[x]Creare un server flask pienamente funzionante
+[x]Creare un database messaggi
+    _messaggi //Provare anche a realizzare il multichat
+    _utenti
+
+[x]Far comunicare il server con il database
+    [x]Richiesta post per l'invio dei messaggi
+    [x]Richiesta get per accesso ai messaggi
+    [x]Richiesta post per la registrazione utente
+    [x]Richiesta get per accesso utente
+
+[]Far comunicare il server con il cloud messaging di firebase per le notifiche
+
+
+CLIENT:
+FLUTTER
+
+
+
+ []visualizazione utenti attivi inattivi
+    []Richiesta get utenti
+    []Invio al server di effettiva app attiva,inattiva,chiusa
+    
+[]visualizazione messagi
+    []inviati in ordine cronologico
+    //    []se multichat separati dagli altri utenti
+    
+[]Invio dei messaggi
+    []Richiesta post al server di invio
